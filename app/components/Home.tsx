@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Landing = () => {
   return (
-    <main className=" bg-cover  h-[100vh] w-full bg-[url(https://s3.amazonaws.com/media.launchrock.com/assets/sites/site-72fryg9bzumv5sa8h6a33wngq/io2nut-vecteezy_elegant-modern-fashion-collection-hanging-in-a-luxurious_24745938_777-min.jpg)]  bg-center">
+    <main className=" bg-cover   w-full bg-[url(https://s3.amazonaws.com/media.launchrock.com/assets/sites/site-72fryg9bzumv5sa8h6a33wngq/io2nut-vecteezy_elegant-modern-fashion-collection-hanging-in-a-luxurious_24745938_777-min.jpg)]  bg-center">
       <div className="backdrop-brightness-[.40] contrast-[.89] w-full h-full">
         <Container>
           <div className="  font-mont   py-16 md:py-44 ">
