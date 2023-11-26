@@ -23,7 +23,7 @@ const Footer = () => {
               <FaTwitter />
             </Link>{" "}
           </div>
-          <div>
+          <div className="max-sm:hidden">
             <p>Zonify Spaces, 2023.All rights are reserved</p>
           </div>
         </div>

@@ -22,12 +22,12 @@ const data = [
 const AboutUs = () => {
   return (
     <Container>
-      <main id="about" className="h-[100vh] w-full">
+      <main id="about" className=" max-md:py-10 md:py-24 w-full">
         <div className=" w-full h-[100%]  flex flex-col items-center justify-center ">
           <h1 className="text-6xl font-mont uppercase text-center">About Us</h1>
           <br />
           <br />
-          <div className=" grid grid-cols-3 gap-5 ">
+          <div className=" grid  grid-cols-1 md:grid-cols-3 gap-5 ">
             {data.map((ele, i) => (
               <div
                 key={i}

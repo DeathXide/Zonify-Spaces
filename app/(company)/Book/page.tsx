@@ -7,21 +7,21 @@ import { toast } from "sonner";
 
 const BookNow = () => {
   return (
-    <div className={`w-full`}>
+    <div className="pb-10">
       <Container>
-        <div className="flex bg-[#1f1f1f] text-white border-1.5 rounded-lg mt-10   items-center justify-center">
-          <div className="flex-1  text-2xl p-10 leading-10 text-center ">
+        <div className="flex max-md:flex-col bg-[#1f1f1f] text-white border-1.5 rounded-lg mt-10   items-center justify-center">
+          <div className="flex-1    text-base md:text-2xl  p-5 md:p-10  leading-8 md:leading-10  text-center ">
             <h1>Ready to Organize Your Space?</h1>
 
             <h1>Do You Want a Zonify Expert Near You?</h1>
             <h1>Join Now For Free! No CC Required.</h1>
 
-            <h1 className="text-medium">
+            <h1 className=" text-sm md:text-medium">
               Get our upcoming launch offers & updates on home organizing
               services.
             </h1>
             <br />
-            <div className="  flex gap-4">
+            <div className="  flex max-md:flex-col gap-4">
               <Input color="default" variant="flat" type="text" label="Name" />
               <Input
                 color="default"

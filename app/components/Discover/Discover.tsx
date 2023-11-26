@@ -8,14 +8,14 @@ const Discover = () => {
   return (
     <div className="bg-[#C8AC94]">
       <Container>
-        <main className="h-[100vh] w-full  ">
-          <div className=" w-full h-[100%]  flex flex-col  gap-24 items-center justify-center ">
-            <h1 className="text-6xl font-mont uppercase text-center">
+        <main className="w-full py-10 ">
+          <div className=" w-full h-[100%]  flex flex-col   gap-5 md:gap-24 items-center justify-center ">
+            <h1 className=" text-4xl md:text-6xl  font-mont uppercase text-center">
               DISCOVER YOUR DREAM SPACE
             </h1>
 
-            <div className="  w-full grid grid-cols-2 gap-10 h-[60%] ">
-              <div className=" px-10 flex flex-col gap-5 ">
+            <div className="  w-full grid grid-cols-1 md:grid-cols-2 gap-10 h-[60%] ">
+              <div className="  px-5 md:px-10 flex flex-col gap-5 ">
                 <h1 className=" text-lg text-justify">
                   Tired of a cluttered home? At Zonify Spaces, we turn your
                   dreams of an organized home into reality! Our Zonifyers
@@ -33,22 +33,14 @@ const Discover = () => {
                     <li>Simplified, secure payments.</li>
                   </ol>
                 </div>
+                <br className="max-sm:hidden" />
+                <Link className="text-center" href={"/Book"}>
+                  <Button className=" w-[30%] ">Book Now</Button>
+                </Link>
               </div>
-              <div className="   relative">
-                <div className="  bg-[#483730] rounded-full absolute h-[500px] left-[10%] -top-[20%] w-[500px]"></div>
-                <div className="absolute   z-10  origin-top top-[-10%]">
-                  <Image width={300} src={data[0]} />
-                </div>
-                <div className="absolute   z-30 left-[28%]  top-[25%] ">
-                  <Image width={300} src={data[1]} />
-                </div>
-                <div className="absolute   z-20 right-0  top-[00%]  ">
-                  <Image width={300} src={data[2]} />
-                </div>
+              <div className=" flex items-center justify-center">
+                <Image src="/Discover.png" />
               </div>
-              <Link className="text-center" href={"/Book"}>
-                <Button className=" w-[30%] ">Book Now</Button>
-              </Link>
             </div>
           </div>
         </main>

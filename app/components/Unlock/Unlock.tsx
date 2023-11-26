@@ -9,17 +9,17 @@ const Unlock = () => {
   return (
     <div className="UNLOCK YOUR ORGANIZING POTENTIAL">
       <Container>
-        <main className="h-[100vh] w-full  ">
+        <main className="py-10  w-full  ">
           <div className=" w-full h-[100%]  flex flex-col  gap-10 items-center justify-center ">
-            <h1 className="text-6xl font-mont uppercase text-center">
+            <h1 className=" text-4xl md:text-6xl font-mont uppercase text-center">
               Unlock YOUR DREAM SPACE
             </h1>
 
-            <div className="  w-full grid grid-cols-2 gap-10 h-[60%] ">
+            <div className="  w-full grid grid-cols-1 md:grid-cols-2 gap-10 h-[60%] ">
               <div className=" h-[400px] rounded-xl overflow-hidden">
                 <Image src={"/join.jpg"} />
               </div>
-              <div className=" px-10 flex flex-col items-center justify-center gap-5 ">
+              <div className="  px-5 md:px-10 flex flex-col items-center justify-center gap-5 ">
                 <h1 className=" text-lg text-justify">
                   Are you a home organization expert ready to unlock new
                   possibilities? Zonify Spaces is your gateway to a world of
